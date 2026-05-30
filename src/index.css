@@ -2,7 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  background-color:white !important;
-  color:#0f172a !important;
+:root {
+  --background: 255 255 255;
+  --foreground: 15 23 42;
+  --card: 255 255 255;
+  --card-foreground: 15 23 42;
+}
+
+html,
+body,
+#root {
+  background-color: white !important;
+  color: #0f172a !important;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  color-scheme: light !important;
 }

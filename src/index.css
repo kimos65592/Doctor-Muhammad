@@ -3,4 +3,6 @@
 @tailwind utilities;
 body{
   background:white !important;
+  border:slate-200 !important;
+  text:slate-900 !important;
 }
